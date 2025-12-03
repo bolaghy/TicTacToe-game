@@ -10,7 +10,7 @@ let currentPlayer = X_TEXT
 let spaces = Array(9).fill(null)
 let gameOver = false;  
 
-
+/* Function to start the game and add event listeners to each box */
 const startGame = () => {
     boxes.forEach(box => box.addEventListener('click', boxClicked))
 
