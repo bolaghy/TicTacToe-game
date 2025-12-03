@@ -47,14 +47,6 @@ function boxClicked(e) {
     }
 }
 
-
-
-
-
-
-
-
-
 const winningCombos = [
     [0, 1, 2],
     [3, 4, 5],
@@ -77,10 +69,6 @@ function playerHasWon() {
     return false
 }
 
-
-
-
-
 restartBtn.addEventListener('click', restart)
 
 
@@ -101,8 +89,5 @@ function restart() {
 
 
 }
-
-
-
 
 startGame()
